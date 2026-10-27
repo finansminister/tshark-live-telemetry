@@ -80,11 +80,8 @@ if __name__ == "__main__":
         ],
         stdout=subprocess.PIPE,
         stderr=subprocess.DEVNULL,
-<<<<<<< HEAD
-        text=False
-=======
         text=True
->>>>>>> 9e0615d (initial commit)
+
     )
     pattern = r"\b([1-5]\d\d)"  # i.e "HTTP Code: 429" -> 429
 
