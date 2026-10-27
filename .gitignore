@@ -1,0 +1,9 @@
+# Python bytecode and virtual environments
+__pycache__/
+*.py[cod]
+venv/
+env/
+
+# OS metadata
+.DS_Store
+Thumbs.db
