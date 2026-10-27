@@ -1,0 +1,7 @@
+services:
+  mock-traffic:
+    build: .
+    container_name: mock-traffic
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
